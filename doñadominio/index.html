@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Buscador de dominios </title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="codigo.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Doña Dominio</h1>
+    </header>
+
+    <section>
+        <article id="buscador">
+            <input type="text" id="dominio" placeholder="Consulta un dominio">
+            <input type="submit" id="enviar" onclick="consulta()" value="Comprobar">
+        </article>
+        <article id="informacion">
+            <table>
+                <caption><h2>Tu dominio</h2></caption>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Disponibilidad</th>
+                    <th>Fecha de registro</th>
+                    <th>Fecha expiración</th>
+                </tr>
+                <tr>
+                    <td id="nombre"></td>
+                    <td id="disponible"></td>
+                    <td id="fechareg"></td>
+                    <td id="fechaexp"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" id="tiempo"></td>
+                </tr>
+            </table>
+        </article>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
