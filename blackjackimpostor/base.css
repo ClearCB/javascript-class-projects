@@ -1,0 +1,40 @@
+body{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#registros{
+    text-align: start;
+}
+
+.registro{
+    list-style: none;
+}
+
+#estado.\.gallina{
+    background-image: url(./img/gallina.jpg);
+}
+
+#estado.\.ganador{
+    background-image: url(./img/copa.jpg);
+}
+
+#estado.\.perdedor{
+    background-image: url(./img/loser.png);
+}
+
+#estado.\.dados{
+    
+    background-color: green;
+}
+
+#estado{
+
+    height: 300px;
+    width: 300px;
+    background-image: url(./img/dados.png);
+    background-repeat: no-repeat;
+}
