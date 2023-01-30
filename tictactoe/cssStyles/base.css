@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(76, 139, 141);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+footer{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#tablero {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 464px;
+    height: 464px;
+    background-color: rgb(182, 99, 86);
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    background-color: floralwhite;
+}
+
+#resultado {
+    margin: 10px;
+    text-align: center;
+}
+
+.jugador1 {
+    background-image: url('../img/circulo.jpg');
+}
+
+.jugador2 {
+    background-image: url('../img/cruz.jpg');
+}
+
+#finalizado {
+    margin-top: 10px;
+    color:brown;
+    font-size: 20px;
+}

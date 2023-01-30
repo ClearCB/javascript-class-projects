@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Tictactoe </title>
+    <link rel="stylesheet" type="text/css" href=".//cssStyles/base.css">
+    <script src="./javaScript/tictactoe.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1> TIC TAC TOE </h1>
+    </header>
+    <section id="tablero">
+        <div id="d00" onclick="play(0,0)"></div>
+        <div id="d01" onclick="play(0,1)"></div>
+        <div id="d02" onclick="play(0,2)"></div>
+        <div id="d10" onclick="play(1,0)"></div>
+        <div id="d11" onclick="play(1,1)"></div>
+        <div id="d12" onclick="play(1,2)"></div>
+        <div id="d20" onclick="play(2,0)"></div>
+        <div id="d21" onclick="play(2,1)"></div>
+        <div id="d22" onclick="play(2,2)"></div>
+    </section>
+    <section id="resultado">
+        <p id="finalizado"></p>
+        <button onclick="refreshGame()"> RESET </button>
+    </section>
+    <footer>
+        Tic-tac-toe v 0 1
+    </footer>
+</body>
+
+</html>
