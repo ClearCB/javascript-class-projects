@@ -2,24 +2,24 @@ var suma = 0;
 var numTirada = 1;
 
 // Comprueba la suma
+function checkRendicion() {
+    
+    if ( (18<=suma) && (suma<=21) ){
+        document.getElementById("estado").className=".ganador";
+    }
+
+    else{
+        document.getElementById("estado").className=".gallina";
+    }
+
+}
+
+// Comprueba la suma
 function checkSuma() {
 
     if (suma>21){
         document.getElementById("estado").className=".perdedor";
     }
-
-    else if (suma==21){
-        document.getElementById("estado").className=".copa";
-    }
-
-    else if ( (18<=suma) && (suma<21) ){
-        document.getElementById("estado").className=".gallina";
-    }
-
-    else{
-        document.getElementById("estado").className=".dados";
-    }
-
 }
 // Añade el valor de la tirada a suma
 function añadirValor(tirada){
@@ -51,4 +51,14 @@ function añadirRegistro(tirada, total){
     
     document.getElementById("registros").innerHTML+='<li class="registro">Tirada numero '+ numTirada + ' dado (' + tirada + '). Total: ' + total + '</li>';
     numTirada+=1;
+}
+
+function reiniciar(){
+
+    window.location.reload();
+}
+
+function retirada(){
+
+    checkRendicion();
 }

@@ -5,13 +5,34 @@ body{
     align-items: center;
     text-align: center;
 }
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 #registros{
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .registro{
     list-style: none;
+}
+
+nav{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.buttons{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border: none;
 }
 
 #estado.\.gallina{
@@ -31,6 +52,24 @@ body{
 
     height: 300px;
     width: 300px;
-    background-image: url(../img/dados.png);
     background-repeat: no-repeat;
+    background-color: green;
+    background-position: center;
+
 }
+
+#plantar{
+
+    background-image: url(../img/banderablanca.png);
+}
+
+#tirar{
+    background-image: url(../img/dados.png);
+    
+}
+
+#reiniciar{
+    background-image: url(../img/remake.png);
+}
+
+
