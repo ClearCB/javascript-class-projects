@@ -1,6 +1,6 @@
-let game_board = [[0, 0, 0],
-[0, 0, 0],
-[0, 0, 0]];
+let game_board =    [[0, 0, 0],
+                    [0, 0, 0],
+                    [0, 0, 0]];
 
 player = 1;
 
@@ -153,6 +153,7 @@ function randomNumber(){
     return Math.floor(Math.random()*3);
 }
 
+// This part was implemented with my teachers help.
 function botPlay(){
 
     if (!gameFinished()){
@@ -173,6 +174,7 @@ function botPlay(){
 }
 }
 
+// This part was implemented with my teachers help.
 function play(row, column) {
 
     if (!gameFinished()) {

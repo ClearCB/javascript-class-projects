@@ -1,3 +1,6 @@
+// You need to set a IP in which the server sends you a number from 1 to 99 to let this work.
+
+
 function numero(){
     const xhttp = new XMLHttpRequest();
     
@@ -15,6 +18,7 @@ function numero(){
         }
     }
     
+    // Here remove the ip and set the one that works correctly
     xhttp.open("GET","http://172.16.135.81/tom.php");
     xhttp.send();  
 
