@@ -1,0 +1,85 @@
+body{
+    background-color: red;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cuadro{
+    background-color: black;
+    height: 80px;
+    width: 60px;
+}
+
+.cuadro0{
+    background-image: url(../img/cero.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro1{
+    background-image: url(../img/uno.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro2{
+    background-image: url(../img/dos.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro3{
+    background-image: url(../img/tres.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro4{
+    background-image: url(../img/cuatro.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro5{
+    background-image: url(../img/cinco.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro6{
+    background-image: url(../img/seis.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro7{
+    background-image: url(../img/siete.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro8{
+    background-image: url(../img/ocho.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
+
+.cuadro9{
+    background-image: url(../img/nueve.jpg);
+    height: 100px;
+    width: 60px;
+    background-position: center;
+}
