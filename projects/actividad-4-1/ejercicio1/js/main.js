@@ -45,4 +45,3 @@ function main(){
     avisarConsola();
 }
 
-main();

@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/base.css">
     <script src="./js/main.js"></script>
-    <title>Actividad 1</title>
+    <title>Actividad 4</title>
 </head>
+
 <body>
-    
+    <div id="primero">
+        <h1>Bienvenid@ a la actividad 4!</h1>
+        <h2 id="tituloenfermo">Por favor... estoy enfermo. Salvame pulsando el boton que dice "Curar"</h2>
+        <h3>Este texto va a ser teletransportado al final de la página</h3>
+        <p>Además, esta línea va a pasar a ser la tercera del final</p>
+        <h3>Esta línea, sin embargo, se va a convertir en la segunda de abajo.</h3>
+        <p>Y esta de aquí va a pasar a ser la última!</p>
+    </div>
+    <div id="botones">
+        <button ondblclick='escribirTextos("h3","p")'> Doble click para teletransportar el texto de los títulos (h3) y párrafos(p)</button>
+        <button onclick='cambiarContenido("tituloenfermo")'> Curar </button>
+        <button onclick='eliminarPrimerHijo("purgar")'> Eliminar el primer hijo del padre "purgar" </button>
+    </div>
+    <div id="purgar"><p> Por favor...no apretes ese boton... tengo familia.</p><p> Te lo ruego! Mi hermano no tiene la culpa</p><p> ............no nos hagas esto....</p>
+    </div>
+    <div id="segundo">
+    </div>
 </body>
+
 </html>
