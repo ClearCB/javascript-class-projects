@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#segundo{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#botones{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#botones button{
+    margin: 10px;
+}
+
+.oculta{
+    list-style: none;
+    display: none;
+}
+
+.mostrar{
+    display:block;
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    list-style: circle;
+}
+
