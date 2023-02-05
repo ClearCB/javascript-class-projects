@@ -19,13 +19,13 @@ function calcularNota(){
     // Utilizando una función lambda, conseguimos la suma total de los elementos del array "notas"
     suma = notas.reduce((previous, current) => current +=previous);
 
-    return (suma/notas.length);
+    return Math.round(suma/notas.length);
 } 
 
 // Esto es una pequeña broma, no me lo cuentes como error :(
 function checkNombre(){
     if (conseguirNombre().toUpperCase()=="ABEL"){
-        document.getElementById("media").innerHTML=10;
+        document.getElementById("media").innerHTML=10+ "<br>" + ("No está mal, por favor...revisa el JavaScript para comprobar qué está ocurriendo");
     }
 }
 

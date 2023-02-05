@@ -27,13 +27,18 @@ body{
 .oculta{
     list-style: none;
     display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .mostrar{
     display:block;
+    position: relative;
+    top: 0;
     color: violet;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     list-style: circle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
