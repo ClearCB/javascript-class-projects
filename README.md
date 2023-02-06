@@ -9,7 +9,6 @@ This is a repository in which i will save all the exercises and projects we did 
 * [BuscaMinas](#buscaminas)
 * [BlackJackImpostor](#blackjackimpostor)
 
-
 ## TicTacToe
 
 [Here](./projects/tictactoe/) you will find a first aproachment to the popular game called tic-tac-toe. It is not perfectly done, but it is randomnly played by the machine so... if you are bored, i invite you to try to win!!
@@ -50,6 +49,10 @@ PD: Just working if there is a working ip returning a number from 1 to 99.
 
 ## BlackJackImpostor
 
-(NOT FINISH)
+[Here](./projects/blackjack-impostor/) you will find an impostor blackjack game, but with dice. If you click the dice, you will launch a number between 1-6. Rules:
 
-[Here](./projects/blackjack-impostor/) you will find an impostor blackjack game, but with dice.
+* Objective: reaching 18-21.
+* If you get 21 or more, you lose.
+* If you get less than 18... well, better you try it!
+
+![blackjack-impostor](./doc/blackjack-impostor.png)
