@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <script src="./js/farmacia.js"></script>
+    <title>Buscador farmacias</title>
+</head>
+
+<body onload="consultaFiltro()">
+    <header>
+        <img src="./img/logo.jpg" alt="logoApotecaria">
+        <h1>Busca tu farmacia</h1>
+    </header>
+    <section>
+        <div id="buscador">
+            <div id="paginasF">
+                <input type="text" name="text" id="filtro" placeholder="Introduce una palabra para filtrar">
+                <button onclick="consultaFiltro()" id="filtrar"> Filtrar </button>
+            </div>
+            <div id="paginasN">
+                <button><a href="./index.html"> Inicio </a></button>
+                <button><a href="./second_pages/pormunucipio.html"> Buscar por municipio </a></button>
+                <button><a href="./second_pages/porid.html"> Buscar por ID</a></button>
+            </div>
+        </div>
+        <div id="listadoFarmacias">
+            <table id="lista">
+                <caption>Farmacias</caption>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Municipio</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
