@@ -3,6 +3,7 @@
 This is a repository in which i will save all the exercises and projects we did for JS subject. I understand that they may look a little bit "ugly" but please, I am not a profesional designer... I am just trying my best and they are fully functional.
 
 * [Pharmacy](#pharmacy)
+* [PressTheCorrectKey](#press)
 * [TicTacToe](#tictactoe)
 * [SpamDominio](#spamdominio)
 * [RandomNumber](#randomnumber)
@@ -12,11 +13,17 @@ This is a repository in which i will save all the exercises and projects we did 
 
 ## Pharmacy
 
-This is a search enginge that consist on sending a petition get to a server that our teacher gave to us, that let us get all the pharmacies that are able in Mallorca. With JavaScript, css and html I created a simple filter.
+[Here](./projects/farmacia-search/) This is a search enginge that consist on sending a petition get to a server that our teacher gave to us, that let us get all the pharmacies that are able in Mallorca. With JavaScript, css and html I created a simple filter.
 
 There are 4 different kind of information that can be found: First, a petition with all the data. Second, a filter with an specific word included in the data. Third, all the data but filtered in towns. And finally, an specific ID search engine that includes all the information that is stored about a single pharmacy adding also a map... using [Leaflet](https://leafletjs.com/) an open source pluging for javaScript that allows us making it.
 
 ![pharmacy](./doc/pharmacy.png)
+
+## PressTheCorrectKey
+
+[Here](./projects/press-the-correct-key/) This is a game in which appears a key of your keyboard and you have to press it correctly X times, if you miss it... you lose! But dont worry, you are going to have the chance to reapeat the times you want! Lets see if you can beat your self best-time!
+
+![press-the-correct-key](./doc/presskey.png)
 
 ## TicTacToe
 
